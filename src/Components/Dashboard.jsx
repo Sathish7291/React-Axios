@@ -66,10 +66,10 @@ function Dashboard() {
           <td>{e.name}</td>
           <td>{e.username}</td>
           <td>{e.email}</td>
-          <td>{e.address.street },<br/>{e.address.suite},<br/>{e.address.city},<br/>{e.address.zipcode }</td>
+          <td>{e.address.street }<br/>{e.address.suite}<br/>{e.address.city}<br/>{e.address.zipcode }</td>
           <td>{e.phone}</td>
           <td>{e.website}</td>
-          <td>{e.company.name},<br/>{e.company.catchPhrase},<br/>{e.company.bs}</td>
+          <td>{e.company.name}<br/>{e.company.catchPhrase}<br/>{e.company.bs}</td>
           <td>
             <Button variant='primary' onClick={()=>navigate(`/edit/${e.id}`)}>Edit</Button>
             &nbsp;
